@@ -1,6 +1,6 @@
 <?php
 
-namespace Asantibanez\LivewireCharts\Console;
+namespace Teners\LivewireCharts\Console;
 
 use Illuminate\Console\Command;
 

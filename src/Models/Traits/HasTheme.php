@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Asantibanez\LivewireCharts\Models\Traits;
+namespace Teners\LivewireCharts\Models\Traits;
 
 
 trait HasTheme

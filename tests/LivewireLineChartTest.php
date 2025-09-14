@@ -1,14 +1,14 @@
 <?php
 
-namespace Asantibanez\LivewireCharts\Tests;
+namespace Teners\LivewireCharts\Tests;
 
-use Asantibanez\LivewireCharts\Charts\LivewireLineChart;
+use Teners\LivewireCharts\Charts\LivewireLineChart;
 use Livewire\Features\SupportTesting\Testable;
 use Livewire\Livewire;
 
 class LivewireLineChartTest extends TestCase
 {
-    private function buildComponent() : Testable
+    private function buildComponent(): Testable
     {
         return Livewire::test(LivewireLineChart::class);
     }

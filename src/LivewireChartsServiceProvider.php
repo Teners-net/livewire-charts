@@ -1,15 +1,15 @@
 <?php
 
-namespace Asantibanez\LivewireCharts;
+namespace Teners\LivewireCharts;
 
-use Asantibanez\LivewireCharts\Charts\LivewireAreaChart;
-use Asantibanez\LivewireCharts\Charts\LivewireColumnChart;
-use Asantibanez\LivewireCharts\Charts\LivewireLineChart;
-use Asantibanez\LivewireCharts\Charts\LivewirePieChart;
-use Asantibanez\LivewireCharts\Charts\LivewireRadarChart;
-use Asantibanez\LivewireCharts\Charts\LivewireRadialChart;
-use Asantibanez\LivewireCharts\Charts\LivewireTreeMapChart;
-use Asantibanez\LivewireCharts\Console\InstallCommand;
+use Teners\LivewireCharts\Charts\LivewireAreaChart;
+use Teners\LivewireCharts\Charts\LivewireColumnChart;
+use Teners\LivewireCharts\Charts\LivewireLineChart;
+use Teners\LivewireCharts\Charts\LivewirePieChart;
+use Teners\LivewireCharts\Charts\LivewireRadarChart;
+use Teners\LivewireCharts\Charts\LivewireRadialChart;
+use Teners\LivewireCharts\Charts\LivewireTreeMapChart;
+use Teners\LivewireCharts\Console\InstallCommand;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
@@ -46,22 +46,22 @@ class LivewireChartsServiceProvider extends ServiceProvider
 
     private function registerViews()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'livewire-charts');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'livewire-charts');
     }
 
     private function registerPublishables()
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/views' => resource_path('views/vendor/livewire-charts'),
+                __DIR__ . '/../resources/views' => resource_path('views/vendor/livewire-charts'),
             ], 'livewire-charts:views');
 
             $this->publishes([
-                __DIR__.'/../resources/js' => resource_path('js/vendor/livewire-charts'),
+                __DIR__ . '/../resources/js' => resource_path('js/vendor/livewire-charts'),
             ], 'livewire-charts:scripts');
 
             $this->publishes([
-                __DIR__.'/../public' => public_path('vendor/livewire-charts'),
+                __DIR__ . '/../public' => public_path('vendor/livewire-charts'),
             ], 'livewire-charts:public');
         }
     }

@@ -1,14 +1,14 @@
 <?php
 
 
-use Asantibanez\LivewireCharts\Charts\LivewireRadialChart;
-use Asantibanez\LivewireCharts\Tests\TestCase;
+use Teners\LivewireCharts\Charts\LivewireRadialChart;
+use Teners\LivewireCharts\Tests\TestCase;
 use Livewire\Features\SupportTesting\Testable;
 use Livewire\Livewire;
 
 class LivewireRadialChartTest extends TestCase
 {
-    private function buildComponent() : Testable
+    private function buildComponent(): Testable
     {
         return Livewire::test(LivewireRadialChart::class);
     }

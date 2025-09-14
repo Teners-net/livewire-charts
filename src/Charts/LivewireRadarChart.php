@@ -1,13 +1,13 @@
 <?php
 
-namespace Asantibanez\LivewireCharts\Charts;
+namespace Teners\LivewireCharts\Charts;
 
-use Asantibanez\LivewireCharts\Models\RadarChartModel;
+use Teners\LivewireCharts\Models\RadarChartModel;
 use Livewire\Component;
 
 /**
  * Class LivewireRadarChart
- * @package Asantibanez\LivewireCharts\Charts
+ * @package Teners\LivewireCharts\Charts
  */
 class LivewireRadarChart extends Component
 {

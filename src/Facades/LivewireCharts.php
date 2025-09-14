@@ -1,19 +1,19 @@
 <?php
 
-namespace Asantibanez\LivewireCharts\Facades;
+namespace Teners\LivewireCharts\Facades;
 
-use Asantibanez\LivewireCharts\Models\AreaChartModel;
-use Asantibanez\LivewireCharts\Models\ColumnChartModel;
-use Asantibanez\LivewireCharts\Models\LineChartModel;
-use Asantibanez\LivewireCharts\Models\PieChartModel;
-use Asantibanez\LivewireCharts\Models\RadarChartModel;
-use Asantibanez\LivewireCharts\Models\RadialChartModel;
-use Asantibanez\LivewireCharts\Models\TreeMapChartModel;
+use Teners\LivewireCharts\Models\AreaChartModel;
+use Teners\LivewireCharts\Models\ColumnChartModel;
+use Teners\LivewireCharts\Models\LineChartModel;
+use Teners\LivewireCharts\Models\PieChartModel;
+use Teners\LivewireCharts\Models\RadarChartModel;
+use Teners\LivewireCharts\Models\RadialChartModel;
+use Teners\LivewireCharts\Models\TreeMapChartModel;
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class LivewireCharts
- * @package Asantibanez\LivewireCharts\Facades
+ * @package Teners\LivewireCharts\Facades
  * @method static LineChartModel lineChartModel()
  * @method static LineChartModel multiLineChartModel()
  * @method static ColumnChartModel columnChartModel()

@@ -1,23 +1,23 @@
 <?php
 
 
-namespace Asantibanez\LivewireCharts\Models;
+namespace Teners\LivewireCharts\Models;
 
-use Asantibanez\LivewireCharts\Models\Traits\HasAnimation;
-use Asantibanez\LivewireCharts\Models\Traits\HasAxis;
-use Asantibanez\LivewireCharts\Models\Traits\HasColors;
-use Asantibanez\LivewireCharts\Models\Traits\HasDataLabels;
-use Asantibanez\LivewireCharts\Models\Traits\HasGrid;
-use Asantibanez\LivewireCharts\Models\Traits\HasJsonConfig;
-use Asantibanez\LivewireCharts\Models\Traits\HasLegend;
-use Asantibanez\LivewireCharts\Models\Traits\HasSparkline;
-use Asantibanez\LivewireCharts\Models\Traits\HasStroke;
-use Asantibanez\LivewireCharts\Models\Traits\HasTheme;
-use Asantibanez\LivewireCharts\Models\Traits\HasTitle;
+use Teners\LivewireCharts\Models\Traits\HasAnimation;
+use Teners\LivewireCharts\Models\Traits\HasAxis;
+use Teners\LivewireCharts\Models\Traits\HasColors;
+use Teners\LivewireCharts\Models\Traits\HasDataLabels;
+use Teners\LivewireCharts\Models\Traits\HasGrid;
+use Teners\LivewireCharts\Models\Traits\HasJsonConfig;
+use Teners\LivewireCharts\Models\Traits\HasLegend;
+use Teners\LivewireCharts\Models\Traits\HasSparkline;
+use Teners\LivewireCharts\Models\Traits\HasStroke;
+use Teners\LivewireCharts\Models\Traits\HasTheme;
+use Teners\LivewireCharts\Models\Traits\HasTitle;
 
 /**
  * Class BaseChartModel
- * @package Asantibanez\LivewireCharts\Models
+ * @package Teners\LivewireCharts\Models
  */
 class BaseChartModel
 {

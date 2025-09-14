@@ -1,17 +1,22 @@
 {
-    "name": "asantibanez/livewire-charts",
+    "name": "teners/livewire-charts",
     "description": "Livewire Charts",
     "keywords": [
-        "asantibanez",
+        "teners",
         "livewire-charts"
     ],
-    "homepage": "https://github.com/asantibanez/livewire-charts",
+    "homepage": "https://github.com/teners/livewire-charts",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Andrés Santibáñez",
             "email": "santibanez.andres@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Emmanuel Adesina",
+            "email": "emmanuel@teners.net",
             "role": "Developer"
         }
     ],
@@ -26,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireCharts\\": "src"
+            "Teners\\LivewireCharts\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireCharts\\Tests\\": "tests"
+            "Teners\\LivewireCharts\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireCharts\\LivewireChartsServiceProvider"
+                "Teners\\LivewireCharts\\LivewireChartsServiceProvider"
             ],
             "aliases": {
-                "LivewireCharts": "Asantibanez\\LivewireCharts\\LivewireChartsFacade"
+                "LivewireCharts": "Teners\\LivewireCharts\\LivewireChartsFacade"
             }
         }
     },
